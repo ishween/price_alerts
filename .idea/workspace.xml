@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9c77f2c5-b1ce-4118-855d-2fd460141661" name="Default Changelist" comment="" />
+    <list default="true" id="9c77f2c5-b1ce-4118-855d-2fd460141661" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/items/item.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/items/item.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,8 +43,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/models/items/item.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
+            <state relative-caret-position="260">
+              <caret line="40" column="9" selection-start-line="40" selection-start-column="9" selection-end-line="40" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -365,7 +368,7 @@
       <workItem from="1546586223257" duration="655000" />
       <workItem from="1546586915403" duration="32219000" />
       <workItem from="1546629824083" duration="2558000" />
-      <workItem from="1547199892376" duration="10569000" />
+      <workItem from="1547199892376" duration="10731000" />
     </task>
     <task id="LOCAL-00001" summary="corrected price strip">
       <created>1547213111779</created>
@@ -410,7 +413,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46001000" />
+    <option name="totallyTimeSpent" value="46163000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -425,7 +428,7 @@
     <frame x="64" y="-11" width="1303" height="780" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29561752" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.29561752" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -436,7 +439,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32921174" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32868218" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32868218" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32868218" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50161815" side_tool="true" weight="0.34860885" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.3878887" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
@@ -828,8 +831,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/models/items/item.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
+        <state relative-caret-position="260">
+          <caret line="40" column="9" selection-start-line="40" selection-start-column="9" selection-end-line="40" selection-end-column="9" />
         </state>
       </provider>
     </entry>
