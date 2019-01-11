@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9c77f2c5-b1ce-4118-855d-2fd460141661" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/models/items/item.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/items/item.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -44,7 +43,7 @@
         <entry file="file://$PROJECT_DIR$/src/models/items/item.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="260">
-              <caret line="40" column="9" selection-start-line="40" selection-start-column="9" selection-end-line="40" selection-end-column="9" />
+              <caret line="40" column="8" selection-start-line="40" selection-start-column="8" selection-end-line="40" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -368,7 +367,7 @@
       <workItem from="1546586223257" duration="655000" />
       <workItem from="1546586915403" duration="32219000" />
       <workItem from="1546629824083" duration="2558000" />
-      <workItem from="1547199892376" duration="10731000" />
+      <workItem from="1547199892376" duration="10766000" />
     </task>
     <task id="LOCAL-00001" summary="corrected price strip">
       <created>1547213111779</created>
@@ -413,7 +412,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46163000" />
+    <option name="totallyTimeSpent" value="46198000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -832,7 +831,7 @@
     <entry file="file://$PROJECT_DIR$/src/models/items/item.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="260">
-          <caret line="40" column="9" selection-start-line="40" selection-start-column="9" selection-end-line="40" selection-end-column="9" />
+          <caret line="40" column="8" selection-start-line="40" selection-start-column="8" selection-end-line="40" selection-end-column="8" />
         </state>
       </provider>
     </entry>

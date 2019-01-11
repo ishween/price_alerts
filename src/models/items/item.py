@@ -38,7 +38,7 @@ class Item(object):
         match = pattern.search(string_price)
 
         group = match.group()
-        #self.price = (float)(''.join(group[0:].split(',')))
+        self.price = (float)(''.join(group[0:].split(',')))
 
         return self.price
 
