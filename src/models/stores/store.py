@@ -1,4 +1,5 @@
 import uuid
+import re
 import src.models.stores.constants as StoreConstants
 from src.common.database import Database
 import src.models.stores.errors as StoreErrors
@@ -44,7 +45,7 @@ class Store(object):
         :param url_prefix:
         :return:
         """
-        return cls(**Database.find_one(StoreConstants.COLLECTION, {"url_prefix": {"$regex": '^{}'.format(url_prefix)}}))
+        return cls(**Database.find_one(StoreConstants.COLLECTION, {"url_prefix":url_prefix}))
 
     @classmethod
     def find_by_url(cls, url):
@@ -53,13 +54,17 @@ class Store(object):
         :param url: complete url and not just url_prefix
         :return: a stores , or raises a stores not found exception if no stores matches the url
         """
-        for i in range(0, len(url)+1):
-            try:
-                store = cls.get_by_url_prefix(url[:i])  #slicing the url to match h, ht, htt, http... and so on
-                return store
-            except:
-                raise StoreErrors.StoreNotFoundError("The URL Prefix used to find the stores didn't give us any result!")
-                #return None # we can even write pass python automatically returns None
+
+        pattern = re.compile("(http(s)?:\/\/www.+.com\/)")
+        #print(url)
+        try:
+            match = pattern.search(url)
+            url_prefix = match.group()
+        #print(url_prefix)
+            store = cls.get_by_url_prefix(url_prefix)
+            return store
+        except:
+            raise StoreErrors.StoreNotFoundError("The URL Prefix used to find the stores didn't give us any result!")
 
     @classmethod
     def all(cls):

@@ -3,6 +3,7 @@ from functools import wraps
 from flask import session, flash, redirect, url_for, request
 from src.app import app
 
+__author__ = 'ishween'
 
 def requires_login(f):
     @wraps(f)

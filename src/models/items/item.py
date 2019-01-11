@@ -1,4 +1,4 @@
-import  re
+import re
 import uuid
 import requests
 from bs4 import BeautifulSoup
@@ -26,14 +26,20 @@ class Item(object):
     def load_price(self):
         request = requests.get(self.url)
         content = request.content
+        #print(content)
         soup = BeautifulSoup(content, "html.parser")
+        #print(soup)
         element = soup.find(self.tag_name, self.query)
+        print(self.tag_name)
+        print(self.query)
         string_price = element.text.strip()#it didn't took 1,330 as price look into it
 
         pattern = re.compile("(\d+.\d+)") #$155.00
         match = pattern.search(string_price)
 
-        self.price = (float)(match.group())
+        group = match.group()
+        self.price = (float)(''.join(group[0:].split(',')))
+
         return self.price
 
     def save_to_mongo(self):

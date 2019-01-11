@@ -1,3 +1,4 @@
+__author__ = 'ishween'
 
 class StoreError(Exception):
     def __init__(self, message):

@@ -1,3 +1,4 @@
+__author__ = 'ishween'
 
 
 URL = "https://api.mailgun.net/v3/sandbox75223a6a24544786ad2d719b902a04fa.mailgun.org/messages"

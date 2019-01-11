@@ -3,6 +3,9 @@ from flask import Blueprint, render_template, request, json, url_for, redirect
 from src.models.stores.store import Store
 import src.models.users.decorators as admin_decorators
 
+__author__ = 'ishween'
+
+
 store_blueprint = Blueprint('stores', __name__)
 
 

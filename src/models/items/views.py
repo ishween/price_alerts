@@ -1,5 +1,6 @@
 from flask import  Blueprint
 
+__author__ = 'ishween'
 
 item_blueprint = Blueprint('items', __name__)
 #never called - delete them later

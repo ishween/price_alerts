@@ -32,8 +32,6 @@ class User(object):
             raise UserErrors.UserNotExistsError("Your users data not exist")
         if not Utils.check_hashed_password(password, user_data['password']):
             raise UserErrors.IncorrectPasswordError("Your password is wrong")
-
-
         return True
 
     @staticmethod
